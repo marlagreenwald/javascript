@@ -10,14 +10,15 @@
 				var gameresponse = prompt ("What would you like to play, "+nameresponse+"?");
 				if(gameresponse==="global thermonuclear war"){
 					alert ("A strange game.  The only winning move is not to play.");
-					}else{
+				}else{
 					var sarcasm=confirm ("Oh, are you over Global Thermonuclear War, now, "+nameresponse+"?");
-					}
-				if(sarcasm=true) {
-					alert ("That's good, it's a strange game.  The only winning move is not to play.");
+					if(sarcasm===true) {
+						alert ("That's good, it's a strange game.  The only winning move is not to play.");
 					}else{
-					alert ("No? Well I don't recommend it.  The only winning move is not to play.");
-					}	
+						alert ("No? Well I don't recommend it.  The only winning move is not to play.");
+					}					
+				}
+
 		</script>
 	</head>
 	<body>
