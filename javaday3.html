@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Javascript Class 3</title>
+	 	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	 	
+	 	<script>
+			$(document).ready(function(){
+				$("h1").click(function(){
+					$("h1").addClass("fancier");
+					console.log("I'd rather be lesson planning.");
+			});
+
+				$("h2").click(function(){
+					$("h1").removeClass("fancier");
+					console.log("That is one fancy cat.");
+			});
+		});
+		
+		</script>
+		<style>
+			.fancy {background-color:green;
+					font-size:175px;
+					}
+			.fancier {background-color:green;
+					font-size:175px;
+					border:10px dotted yellow;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>henrietta</h1>
+		<h2>pussycat</h2>
+	</body>
+</html>	
